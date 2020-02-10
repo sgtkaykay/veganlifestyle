@@ -11,9 +11,9 @@
   <body>
     <div class="sidenav">
       <img src="img/icon.png">
-      <a href="veganlifestyle.herokuapp.com?page=home">Home</a>
-      <a href="veganlifestyle.herokuapp.com?page=vfood">Vegan Foods</a>
-      <a href="veganlifestyle.herokuapp.com?page=vnews">Vegan News</a>
+      <a href="?page=home">Home</a>
+      <a href="?page=vfood">Vegan Foods</a>
+      <a href="?page=vnews">Vegan News</a>
     </div>
     <div class="content">
 	<?php
