@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+}
+
+.sidenav {
+  text-align: center;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 10%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #344047;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2de02d;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.content {
+  margin-left: 10%; /* Same as the width of the sidebar */
+  width:90%;
+  min-height: 100%;
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+}
+
+.sidenav img{
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.background{
+  width: 100%;
+  min-height: 1024px;
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+}
+
+.background h1{
+  font-size: 60px;
+  color: #00ac00;
+  font-family: 'Fjalla One', sans-serif;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.background h2{
+  font-size: 35px;
+  color: #111;
+  font-family: 'Josefin Sans', sans-serif;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.background p{
+  font-size: 23px;
+  color: #111;
+  font-family: "Open Sans",Arial,sans-serif;
+  display: inline-block;
+  margin-left: 80px;
+  width: 550px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.fcontent{
+  overflow: auto;
+  text-align: center;
+  background-image: url("../img/vegetable.jpg");
+  background-size: 400px 400px;
+  background-repeat: repeat;
+}
+
+.style{
+  display: inline-block;
+  width: 800px;
+}
+
+.style ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.titleContainer{
+  margin: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #368242;
+  border-radius: 25px;
+  color: white;
+}
+
+.titleContainer h1{
+  margin: 10px 80px;
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.contentContainer{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #368242;
+  border-radius: 25px;
+  color: white;
+}
+
+.contentContainer h2{
+  margin: 5px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contentContainer p{
+  margin: 5px;
+  font-size: 17px;
+  font-family: "Open Sans",Arial,sans-serif;
+}
+
+.contentContainer a{
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+}
+
+.contentContainer a:hover{
+  color: #344047;
+}
