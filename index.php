@@ -6,6 +6,7 @@
   <head>
     <title> Vegan Lifestyle </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
