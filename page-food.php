@@ -14,9 +14,10 @@
         foreach( $content as $data ) {
           $title = $data->getElementsByTagName("title")->item(0)->nodeValue;
           $description = $data->getElementsByTagName("description")->item(0)->nodeValue;
+          $link = $data->getElementsByTagName("link")->item(0)->nodeValue;
 
-          echo "<div class='contentContainer'>
-                  <h2>$title</h2>
+          echo "<div class='titleCContainer'>
+                  <a href='$link'>$title</a>
                 </div>
                 <div class='contentContainer'>
                   <p>$description<p>
