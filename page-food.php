@@ -1,11 +1,11 @@
 <div class="fcontent">
   <div class="style">
     <div class="titleContainer">
-      <h1>Vegan Foods</h1>
+      <h1>Vegan News</h1>
     </div>
     <?php
       $domOBJ = new DOMDocument();
-      $domOBJ->load("http://feeds.feedburner.com/YupItsVegan");//XML page URL
+      $domOBJ->load("https://vegnews.com/feed.rss");//XML page URL
 
       $content = $domOBJ->getElementsByTagName("item");
     ?>
