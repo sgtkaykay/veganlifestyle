@@ -16,7 +16,7 @@
           $description = $data->getElementsByTagName("description")->item(0)->nodeValue;
           $link = $data->getElementsByTagName("link")->item(0)->nodeValue;
 
-          echo "<div class='titleCContainer'>
+          echo "<div class='articleTitle'>
                   <a href='$link'>$title</a>
                 </div>
                 <div class='contentContainer'>
