@@ -14,21 +14,25 @@
       <a href="index.php?page=home">Home</a>
       <a href="index.php?page=vfood">Vegan Foods</a>
       <a href="index.php?page=vnews">Vegan News</a>
+      <a href="index.php?page=vdiet">Vegan Diet Tips & Plan</a>
     </div>
     <div class="content">
-			<?php
-			switch ($load) {
-				case 'vfood':
-				    require_once('page-food.php');
-				        break;
-				case 'vnews':
-			      require_once('page-news.php');
-			          break;
-				default:
-					  require_once('home.php');
-					      break;
-				}
-			?>
+	<?php
+	  switch ($load) {
+		case 'vfood':
+			require_once('page-food.php');
+			break;
+		case 'vnews':
+			require_once('page-news.php');
+			break;
+        	case 'vdiet':
+        		require_once('page-diet.php');
+        		break;
+		default:
+			require_once('home.php');
+			break;
+		}
+	?>
     </div>
   </body>
 </html>
