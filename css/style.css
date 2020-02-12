@@ -154,24 +154,3 @@
 .contentContainer a:hover{
   color: white;
 }
-
-.articleTitle{
-  margin-top: 60px;
-  margin-bottom: 5px;
-  display: inline-block;
-  padding: 10px;
-  background-color: #368242;
-  border-radius: 25px;
-}
-
-.articleTitle a{
-  color: yellow;
-  margin: 5px;
-  font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  text-decoration: none;
-}
-
-.articleTitle a:hover{
-  color: white;
-}
