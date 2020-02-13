@@ -5,7 +5,7 @@
     </div>
     <?php
       $domOBJ = new DOMDocument();
-      $domOBJ->load("https://vegnews.com/feed.rss");//XML page URL
+      $domOBJ->load("http://feeds.feedburner.com/YupItsVegan");//XML page URL
 
       $content = $domOBJ->getElementsByTagName("item");
     ?>
