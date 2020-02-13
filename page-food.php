@@ -1,7 +1,7 @@
 <div class="fcontent">
   <div class="style">
     <div class="titleContainer">
-      <h1>Vegan News</h1>
+      <h1>Vegan Foods</h1>
     </div>
     <?php
       $domOBJ = new DOMDocument();
